@@ -1,0 +1,72 @@
+.Page_Container{
+
+    width: 80%;
+    height: 300px;
+    color: crimson;
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.Inputs{
+
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.NomePessoal{
+
+    width: 100%;
+}
+
+.Identifique{
+
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+
+    .Page_Container{
+
+        margin-top: 50%;
+    }
+
+
+    .Inputs input,textarea {
+
+        border: none;
+        border-radius: 5px;
+        padding: .5em;
+
+    }
+
+
+    .publicar{
+
+        border: none;
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 05px;
+        padding: 1em;
+        box-shadow: 5px 5px crimson;
+        
+        
+
+    }
+    
+}

@@ -1,0 +1,78 @@
+.Home-Page{
+    
+    width: 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    background-color: crimson;
+    background-image: url(./sunset-moon-river-mountains-gradient-background-peach-4500x3000-2528.jpg);
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Main-Texts{
+
+
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.Home-Text{
+
+    width: 23.3%;
+    background-color: whitesmoke;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px rebeccapurple;
+    transition: all .2s ease-in-out;
+}
+
+
+.Home-Text:hover{
+
+    transform: scale(1.1);
+    box-shadow: 5px 5px crimson;
+    z-index: 100;
+
+}
+
+.Ver-Todos{
+
+    width: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1em;
+    
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+    background-color: antiquewhite;
+    
+    transition: .2s ease-in-out;
+
+}
+
+
+.Ver-Todos:hover{
+    cursor: pointer;
+    color: crimson;
+    box-shadow: 5px 5px rebeccapurple;
+}
+
